@@ -1,0 +1,60 @@
+.loginBlock{
+  width: 500px;
+  height: 600px;
+  background-color: #79a6d2;
+  justify-content: center;
+  padding: 50px;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.6),
+              -2px -2px 5px rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+}
+h1{
+  font-size: 55px;
+  margin-bottom: 25px;
+}
+.titleLogin, .inputAccount, .inputPassword{
+  display: flex;
+  justify-self: center;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+.inputAccount, .inputPassword{
+  width: 350px;
+  height: 50px;
+  border-radius: 25px;
+  border: 0;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6),
+              -2px -2px 5px rgba(255, 255, 255, 0.5);
+}
+.buttonContinue{
+  margin-top: 30px;
+  width: 200px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #3a3a3a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6),
+              -2px -2px 5px rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+}
+/* 滑鼠懸停時變大 + 改變背景顏色 */
+.buttonContinue:hover {
+  transform: scale(1.1);
+  background-color: #4c86c6;
+  color: #fff;
+  border-color: #2f5b99;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* 點擊時稍微縮小，模擬按下效果 */
+.buttonContinue:active {
+  transform: scale(0.95);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}

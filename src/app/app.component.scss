@@ -1,0 +1,39 @@
+.example-container {
+  background-color: transparent;
+  width: 100vw;
+  height: 100vh;
+}
+
+.buttonMenu{
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  height: 50px;
+}
+
+.spanTXT{
+  font-weight: bold;
+  color: white;
+  font-size: 35px;
+  text-shadow: 4px 4px 10px black;
+  margin-left: 10px;
+}
+
+.iconMenu{
+  transform: scale(2);
+  font-weight: bold;
+  color: white ;
+  text-shadow: 4px 4px 10px black;
+}
+
+.pTitle{
+  font-weight: bold;
+  font-size: 35px;
+  color: #3a3a3a;
+}
+
+.buttonLogin, .buttonLogout{
+  background: transparent;
+  border: 0;
+  font-size: 20px;
+}

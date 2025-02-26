@@ -1,0 +1,20 @@
+<mat-drawer-container class="example-container" autosize>
+
+  <mat-drawer #drawer class="example-sidenav" mode="over" style="padding: 10px;">
+    <p class="pTitle">動態問卷</p> <hr>
+    <button (click)="goToLogin() ;drawer.toggle()" class="buttonLogin">LOGIN</button> <br>
+    <button (click)="goToLogout() ;drawer.toggle()" class="buttonLogout">LOGOUT</button> <br> <hr>
+
+  </mat-drawer>
+
+  <div class="example-sidenav-content buttonMenu">
+    <button type="button" mat-button (click)="drawer.toggle()">
+      <mat-icon class="iconMenu">menu</mat-icon>
+      <span class="spanTXT">動態問卷</span>
+    </button>
+
+  </div>
+
+  <router-outlet></router-outlet>
+
+</mat-drawer-container>
